@@ -1,0 +1,28 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display : grid;
+    grid-template-columns: 150px repeat(3, 1fr);
+    background-color :rgb(2, 0, 12);
+    grid-template-rows:repeat(3, max-content) 100px;
+    grid-gap : 50px 30px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height : 90%;   
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: lightblue;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

@@ -1,0 +1,53 @@
+.input-container{
+    grid-column: 2/5;
+    padding-top : 30px;
+    display : grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 100px;;
+    align-items: center;
+    padding : 10px;
+}
+.input{
+    color : #fff;
+    border-top : none;
+    background-color: rgb(4, 1, 37);
+    border-right : none;
+    border-left : none;
+    outline: none;
+    border-bottom: 2px solid white;
+    padding : 10px;
+    text-align: center;
+    grid-column: 1/4;
+}
+.input2{
+    color : #fff;
+    border-top : none;
+    border-right : none;
+    background-color: rgb(4, 1, 37);
+    border-left : none;
+    outline: none;
+    border-bottom: 2px solid white;
+    padding : 10px;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row : 2/3
+}
+.addbtn{
+    grid-row : 3/4;
+    background-color : rgb(4, 1, 37);
+    grid-column : 2/3;
+    padding : 10px;
+    margin-top : 20px;
+    color : #fff;
+    transition: all 1s;
+    outline: none;
+}
+.addbtn:hover{
+    background-color :#fff;
+    color :rgb(4, 1, 37);
+}
+@media screen and (max-width : 600px) {
+    .input-container{
+        grid-column: 1/5;
+    }
+}
