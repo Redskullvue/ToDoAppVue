@@ -16,6 +16,7 @@
 <script>
 export default {
   name: 'SideBar',
+  //Testing fort git branch
 }
 </script>
 
